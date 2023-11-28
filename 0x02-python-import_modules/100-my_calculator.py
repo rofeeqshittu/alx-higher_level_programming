@@ -13,13 +13,13 @@ b = int(sys.argv[3])
 
 
 if operator == '+':
-    print(f"{a} {operator} {b} = {add(a, b)}")
+    print("{} {} {} = {}".format(a, operator, b, add(a, b)))
 elif operator == '-':
-    print(f"{a} {operator} {b} = {sub(a, b)}")
+    print("{} {} {} = {}".format(a, operator, b, sub(a, b)))
 elif operator == '*':
-    print(f"{a} {operator} {b} = {mul(a, b)}")
+    print("{} {} {} = {}".format(a, operator, b, div(mul(a, b))))
 elif operator == '/':
-    print(f"{a} {operator} {b} = {div(a, b)}")
+    print("{} {} {} = {}".format(a, operator, b, div(a, b)))
 else:
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)

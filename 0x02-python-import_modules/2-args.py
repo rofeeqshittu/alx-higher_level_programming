@@ -3,11 +3,11 @@ import sys
 
 arg_len = len(sys.argv) - 1
 if arg_len == 0:
-    print("0 arguments.")
+    print("{} arguments.".format(0))
 elif arg_len == 1:
-    print("1 argument:")
-    print(f"1: {sys.argv[1]}")
+    print("{} argument:".format(0))
+    print("{}: {}".format(1, sys.argv[1]))
 else:
-    print(f"{arg_len} arguments:")
+    print("{} arguments:".format(arg_len))
     for i in range(1, arg_len + 1):
-        print(f"{i}: {sys.argv[i]}")
+        print("{}: {}".format(i, sys.argv[i]))

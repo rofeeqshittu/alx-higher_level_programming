@@ -8,7 +8,7 @@ def print_hidden_names(module):
 
     sorted_names = sorted(filtered_names)
     for name in sorted_names:
-        print(name)
+        print("{}".format(name))
 
 
 if __name__ == "__main__":
