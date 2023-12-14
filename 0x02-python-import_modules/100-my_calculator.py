@@ -17,7 +17,7 @@ if __name__ == "__main__":
     elif operator == '-':
         print("{} {} {} = {}".format(a, operator, b, sub(a, b)))
     elif operator == '*':
-        print("{} {} {} = {}".format(a, operator, b, div(mul(a, b))))
+        print("{} {} {} = {}".format(a, operator, b, mul(a, b)))
     elif operator == '/':
         print("{} {} {} = {}".format(a, operator, b, div(a, b)))
     else:
