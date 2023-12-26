@@ -1,6 +1,6 @@
 # Python - Test-driven development
 
-![It works! Just as expected]('tdd_giphy-4.gif')
+!["It works! Just as expected"](tdd_giphy-4.gif)
 
 ## General:
 - Why Python programming is awesome
