@@ -3,6 +3,7 @@
     Module containing a function that prints name
 """
 
+
 def say_my_name(first_name, last_name=""):
     """ Prints: My name is <first name> <last name> """
 
