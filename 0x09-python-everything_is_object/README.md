@@ -1,6 +1,6 @@
 # 0x09. Python - Everything is object
 
-![py_tips_tricks.jpg]("I don't always learn Python ... But when I do I share my tips and tricks")
+![I don't always learn Python ... But when I do I share my tips and tricks](py_tips_tricks.jpg "My tips & tricks")
 
 
 ### General
