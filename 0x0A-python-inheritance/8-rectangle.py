@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+"""
+    Contains a class that inherit
+"""
+
+
+class BaseGeometry:
+    """ A geometry class """
+
+    def area(self):
+        """ Raise Exception """
+        raise Exception("area() is not implemented")
+
+    def integer_validator(self, name, value):
+        """ Integer validator """
+
+        if not isinstance(value, int):
+            raise TypeError("{} must be an integer".format(name))
+        if value <= 0:
+            raise ValueError("{} must be greater than 0".format(name))
+
+
+class Rectangle(BaseGeometry):
+    """ Class inherits from BaseGeometry """
+
+    def __init__(self, width, height):
+        self.__width = self.integer_validator("width", width)
+        self.__height = self.integer_validator("height", height)
