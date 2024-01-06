@@ -5,4 +5,6 @@
 
 
 class LockedClass:
-    __slots__ = ("first_name")
+    """ LockedClass with no attribute """
+
+    __slots__ = ["first_name"]
