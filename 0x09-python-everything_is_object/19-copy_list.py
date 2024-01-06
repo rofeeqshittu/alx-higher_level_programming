@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-def copy_list(l):
-    return l[:]
+def copy_list(lists):
+    """ Return a shallow copy of the list """
+
+    return lists[:]
