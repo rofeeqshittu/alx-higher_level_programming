@@ -8,7 +8,7 @@ class BaseGeometry:
     """ A geometry class """
 
     def __init__(self):
-        super().__init()
+        super().__init__()
 
     def area(self):
         """ Raise Exception """
