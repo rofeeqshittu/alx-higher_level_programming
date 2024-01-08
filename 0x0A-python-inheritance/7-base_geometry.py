@@ -7,6 +7,9 @@
 class BaseGeometry:
     """ A geometry class """
 
+    def __init__(self):
+        super().__init()
+
     def area(self):
         """ Raise Exception """
         raise Exception("area() is not implemented")
