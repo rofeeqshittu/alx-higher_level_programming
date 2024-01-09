@@ -21,6 +21,6 @@ class Student:
 
     def reload_from_json(self, json):
         """ Replaces all attributes of the Student instance """
-        
+
         for key, value in json.items():
             setattr(self, key, value)
