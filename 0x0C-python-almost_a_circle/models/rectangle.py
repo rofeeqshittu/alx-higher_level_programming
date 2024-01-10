@@ -10,8 +10,8 @@ class Rectangle(Base):
         super().__init__(id)
         self.width = width
         self.height = height
-        self.x = 0
-        self.y = 0
+        self.x = x
+        self.y = x
 
     @property
     def width(self):
@@ -19,6 +19,11 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, width):
+        if not isinstance(width, int):
+            raise TypeError("width must be an integer")
+        if width <= 0:
+            raise ValueError("width must be > 0")
+
         self.__width = width
 
     @property
@@ -27,6 +32,11 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, height):
+        if not isinstance(height, int):
+            raise TypeError("height must be an integer")
+        if height <= 0:
+            raise ValueError("height must be > 0")
+
         self.__height = height
 
     @property
@@ -35,6 +45,11 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, x):
+        if not isinstance(x, int):
+            raise TypeError("x must be an integer")
+        if x < 0:
+            raise ValueError("x must be >= 0")
+
         self.__x = x
 
     @property
@@ -43,4 +58,21 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, y):
+        if not isinstance(y, int):
+            raise TypeError("y must be an integer")
+        if y < 0:
+            raise ValueError("y must be >= 0")
+
         self.__y = y
+
+    # New public method area
+    def area(self):
+        """ Returns the area value of the Rectangle instance """
+        rec_area = self.__width * self.__height
+        return rec_area
+
+    # The display method
+    def display(self):
+        """ Prints in stdout the Rectangle instance with the character # """
+        for _ in range(self.height):
+            print("#" * self.width)
