@@ -11,7 +11,7 @@ class Rectangle(Base):
         self.width = width
         self.height = height
         self.x = x
-        self.y = x
+        self.y = y
 
     @property
     def width(self):
@@ -76,3 +76,7 @@ class Rectangle(Base):
         """ Prints in stdout the Rectangle instance with the character # """
         for _ in range(self.height):
             print("#" * self.width)
+
+    def __str__(self):
+        return "[Rectangle] ({}) <{}>/<{}> - <{}>/<{}>".format(
+                self.id, self.__x, self.__y, self.__width, self.__height)
