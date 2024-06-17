@@ -6,7 +6,7 @@
 This project is part of the "SE Foundations" curriculum and covers the basics of SQL using MySQL. The aim is to understand the fundamentals of databases, especially relational databases, and how to interact with them using SQL.
 
 ## Concepts Covered
-- Databases
+i- Databases
 - Relational databases
 - SQL (Structured Query Language)
 - MySQL
@@ -105,7 +105,7 @@ $ service mysql start
 
 ### 14. Average
 - **File:** `14-average.sql`
-- **Description:** Write a script that computes the score average of all records in the table `second_table`.
+- **Description:** Write a  script that computes the score average of all records in the table `second_table`.
 
 ### 15. Number by score
 - **File:** `15-groups.sql`
