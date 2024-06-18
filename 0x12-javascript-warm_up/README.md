@@ -82,7 +82,6 @@ $ ./0-javascript_is_amazing.js
 
 ## Author
 
-Rofeeq Shittu
- The purpose of this project is to practice and demonstrate proficiency in JavaScript scripting.
+The purpose of this project is to practice and demonstrate proficiency in JavaScript scripting.
 
 ```
