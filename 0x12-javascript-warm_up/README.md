@@ -2,6 +2,8 @@
 
 # JavaScript Warm-up
 
+![Javascript Please just work](Javascript-535.png.jpeg)
+
 ## Description
 
 This repository contains a series of JavaScript scripting tasks designed to help understand and master the basic concepts of the language. The tasks cover fundamental JavaScript topics including variables, data types, control structures, functions, and more. These scripts will also serve as the foundation for adding dynamic features to our AirBnB project using JavaScript and jQuery.
