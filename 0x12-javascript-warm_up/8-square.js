@@ -3,14 +3,10 @@
 const arg = process.argv[2];
 let num = parseInt(arg);
 
-if (process.argv.length <= 2 || isNaN(num)) {
+if (isNaN(num) || num <= 0) {
   console.log('Missing size');
 } else {
-  if (!isNaN(num) && num > 1) {
-    const i = num;
-    while (num !== 0) {
-      console.log('x'.repeat(i));
-      num--;
-    }
+  for (let i = 0; i < num; i++) {
+    console.log('x'.repeat(num));
   }
 }
