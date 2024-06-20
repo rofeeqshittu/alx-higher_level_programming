@@ -1,6 +1,9 @@
+---
+
 # 0x13. JavaScript - Objects, Scopes and Closures
 
 This project is part of the ALX Software Engineering curriculum, focusing on JavaScript objects, scopes, and closures.
+
 
 ## Project Tasks
 
@@ -87,4 +90,3 @@ Write a function that converts a number from base 10 to another base passed as a
 
 **File:** `10-converter.js`
 
-```
