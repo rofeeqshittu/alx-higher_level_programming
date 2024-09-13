@@ -6,5 +6,5 @@
 -- List all cities of California, sorted by id in asc order
 SELECT cities.name
 FROM cities
-WHERE name=California
+WHERE cities.state_id = (SELECT id FROM states WHERE name = 'California')
 ORDER BY cities.id ASC;
