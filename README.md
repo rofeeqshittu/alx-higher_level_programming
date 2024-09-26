@@ -3,7 +3,7 @@
 Cpython and other higher level programming starts...  
 Higher Level Programs are known for their Higher Levels of Abstraction. OOP - Object Oriented Programming you say.  
 
-      This repository contains projects and exercises completed during the ALX Software Engineering program, focusing on higher-level programming concepts. The content primarily involves Python, JavaScript, and SQL, emphasizing object-oriented programming, data structures, and other advanced programming paradigms.
+ This repository contains projects and exercises completed during the ALX Software Engineering program, focusing on higher-level programming concepts. The content primarily involves Python, JavaScript, and SQL, emphasizing object-oriented programming, data structures, and other advanced programming paradigms.
 
 ## Directory Structure
 
