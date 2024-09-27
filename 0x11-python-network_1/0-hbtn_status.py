@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-This script fetches the status of the ALX intranet and prints the 
-response body including the type, content, and utf8 content. 
+This script fetches the status of the ALX intranet and prints the
+response body including the type, content, and utf8 content.
 It demonstrates the use of urllib to make HTTP requests in Python.
 """
 if __name__ == '__main__':
