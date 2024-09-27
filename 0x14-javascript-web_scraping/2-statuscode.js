@@ -1,8 +1,12 @@
 #!/usr/bin/node
+// Import the 'request' module
 const request = require('request');
 
-// Make a GET request to the URL provided as the first command-line argument
-request.get(process.argv[2], (error, response) => {
+// Get the URL from the command-line arguments
+const url = process.argv[2];
+
+// Make a GET request to the URL
+request(url, (error, response) => {
   if (error) {
     console.error(error);
   } else {
